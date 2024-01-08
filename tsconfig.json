@@ -20,11 +20,9 @@
     "noImplicitOverride": true,
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
-    "lib": ["es2020"], // Add this line for target library
-    "types": ["node"] // Add this line for Node.js type definitions
+    "types": ["node"]  // Added this line
   },
   "include": [
     "src/**/*.ts",
